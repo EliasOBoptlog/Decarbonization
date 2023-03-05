@@ -1,0 +1,26 @@
+set I := TorreonDeCanas	Janos Sonoyta Pitiquito ElRosario Terramar VillaAndres Heroica Loreto Constitución LaPaz; #Potential points
+set Q := R39 R43 R45 R47;
+
+param s := 5;
+
+param p:=778.5; 
+
+
+param f:=
+R39 2275.6349 
+R43 2547.808667
+R45 3100.037
+R47 4457.018;
+
+param st:=
+R39 1
+R43 1
+R45 2
+R47 7;
+
+
+
+set Cov[R39]:=TorreonDeCanas;
+set Cov[R43]:=Janos;
+set Cov[R45]:=Sonoyta Pitiquito;
+set Cov[R47]:=ElRosario Terramar VillaAndres Heroica Loreto Constitución LaPaz;

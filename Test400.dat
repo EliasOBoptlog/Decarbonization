@@ -1,0 +1,34 @@
+set I :=Valladolid	Huimanguillo	Guacamaya	SantaMaría	Córdoba	Papantla	SotoLaMarina	Rayón	Compostela	ElRosarioSinaloa	Tecuala	EmilianoZapata	Mazapil	Cuencamé	Jiménez	TorreónDeCañas	Guaymas	Ahumada	Janos	FloresMagón	Parras Sonoyta Pitiquito ElRosario Terramar VillaAndres Heroica Loreto Constitución LaPaz; #Potential points
+set Q := R11 R31 R37 R39 R43 R45 R47;
+
+param s:=5; 
+param p:=778.5; 
+
+
+param f::=
+R11	4273.2098
+R31	2903.426625
+R37	2082.396333
+R39	2275.6349
+R43	2547.808667
+R45	3100.037
+R47	4457.018;
+
+
+param st:=
+R11	1
+R31	1
+R37	1
+R39	1
+R43	1
+R45	2
+R47	7
+;
+
+set Cov[R11]:=SotoLaMarina;
+set Cov[R31]:=ElRosarioSinaloa;
+set Cov[R37]:=Jiménez;
+set Cov[R39]:=TorreónDeCañas;
+set Cov[R43]:=Janos;
+set Cov[R45]:=Sonoyta Pitiquito;
+set Cov[R47]:=ElRosario Terramar VillaAndres Heroica Loreto Constitución LaPaz;

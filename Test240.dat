@@ -1,0 +1,85 @@
+set I :=Valladolid	Huimanguillo	Guacamaya	SantaMaría	Córdoba	Papantla	SotoLaMarina	Rayón Chilpancingo	Compostela	ElRosarioSinaloa	Tecuala	EmilianoZapata	Mazapil	Cuencamé	Jiménez	TorreónDeCañas	Guaymas	Ahumada	Janos	FloresMagón	Parras Sonoyta Pitiquito ElRosario Terramar VillaAndres Heroica Loreto Constitución LaPaz; #Potential points
+set Q := R1	R4	R5	R6	R7	R10	R11	R13	R15 R29	R31	R32	R33	R35	R36	R37 R39	R41	R42 R43	R44 R45 R47 R48;
+
+param s:=5; 
+
+param p:=778.5;
+
+param f:=
+R1	3273.9535
+R4	2405.4455
+R5	7088.6886
+R6	3336.13975
+R7	8476.18525
+R10	5707.275167
+R11	4273.2098
+R13	3474.746
+R15	9679.309
+R29	6932.773
+R31	2903.426625
+R32	3652.899
+R33	7647.6495
+R35	4568.075125
+R36	2565.49275
+R37	2082.396333
+R39	2275.6349
+R41	3183.4942
+R42	1152.156
+R43	2547.808667
+R44	5339.114
+R45	3100.037
+R47	4457.018
+R48	4890.35025
+
+param st:=
+R1	1
+R4	1
+R5	1
+R6	1
+R7	1
+R10	1
+R11	1
+R13	1
+R15	1
+R29	1
+R31	1
+R32	1
+R33	1
+R35	1
+R36	1
+R37	1
+R39	1
+R41	1
+R42	1
+R43	1
+R44	2
+R45	2
+R47	7
+R48	1;
+	
+
+
+set Cov[R1]:=Valladolid;
+set Cov[R4]:=Huimanguillo;
+set Cov[R5]:=Guacamaya;
+set Cov[R6]:=SantaMaría;
+set Cov[R7]:=Córdoba;
+set Cov[R10]:=Papantla;
+set Cov[R11]:=SotoLaMarina;
+set Cov[R13]:=Rayón;
+set Cov[R15]:=Chilpancingo;
+set Cov[R29]:=Compostela;
+set Cov[R31]:=ElRosarioSinaloa;
+set Cov[R32]:=Tecuala;
+set Cov[R33]:=EmilianoZapata;
+set Cov[R35]:=Mazapil;
+set Cov[R36]:=Cuencamé;
+set Cov[R37]:=Jiménez;
+set Cov[R39]:=TorreónDeCañas;
+set Cov[R41]:=Guaymas;
+set Cov[R42]:=Ahumada;
+set Cov[R43]:=Janos;
+set Cov[R44]:=Janos FloresMagón;
+set Cov[R45]:=Sonoyta Pitiquito;
+set Cov[R47]:=ElRosario Terramar VillaAndres Heroica Loreto Constitución LaPaz;
+set Cov[R48]:=Parras;
